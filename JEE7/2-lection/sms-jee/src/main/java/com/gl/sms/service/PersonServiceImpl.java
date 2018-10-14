@@ -15,7 +15,7 @@ import com.gl.sms.domain.Person;
  * @author Freddie Molina
  */
 @Stateless
-public class PersonServiceImpl implements PersonServiceRemote {
+public class PersonServiceImpl implements PersonServiceRemote, PersonService {
     
     @Override
     public List<Person> listPersons() {
